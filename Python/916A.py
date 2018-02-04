@@ -12,7 +12,7 @@ def main():
             hh += 0 if (hh >= 0) else 24
             mm += - minute if((mm - minute) >= 0) else 60 - minute
             count += 1
-    print("Переставить будильник ", count)
+    print(count)
     return True
 
 main()
